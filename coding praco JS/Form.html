@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="welcome"></p>
+    <form>
+        What`s your Name:<input type="text" id="name"><br>
+        <input type="button" value="submit" onclick="write_name()">
+    </form>
+    
+
+    <script>
+        function write_name(){
+            let zak= document.getElementById('welcome')
+            let mohamed = document.getElementById('name')
+
+            zak.innerHTML = `welcome ${mohamed.value} `
+        }
+
+    </script>
+</body>
+
+</html>

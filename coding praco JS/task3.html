@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script >
+        let j=(+254)
+let PhonNumb=window.prompt("Enter Phone Number");
+if (PhonNumb.startsWith("+254")) {
+    console.log("correct Phone Number");
+}else if (PhonNumb.startsWith("07"|| "01")&& PhonNumb.length==10) {
+    let NewNumb='+254'+PhonNumb.substring(1);
+    console.log("valid number is",NewNumb);
+    console.log(NewNumb);
+}else if (PhonNumb.startsWith("7")) {
+    let NewNumb="+254"+PhonNumb.substring(0)
+    console.log(NewNumb);
+}
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+let Email=("email@gmail.com");
+let Password=("email@gmail.com");
+for(let i=1;i<=4;i++){
+if (i==4) {
+    console.log("You Are Blocked");
+    break;}
+let user_email=window.prompt("enter email"+"Attempt"+i.toString()) ;
+let user_password=window.prompt("Enter Password"+"Attempt"+ i.toString());
+if (Email=user_email && Password==user_password) {
+    console.log("Access Granted");
+    break;
+
+} else {
+    console.log("Access Denied,Try Again");}
+
+}
+
+   </script> 
+</body>
+</html>

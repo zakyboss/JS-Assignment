@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let i=0; i<=4;i++){
+            if (i==3) {
+                console.log("Too Many Tries");
+                break;
+            }
+            let Number1=window.prompt("Enter First Number"+"Attempt" +i.toString())
+           let Number2=window.prompt("Enter second Number"+"Attempt" +i.toString())
+           Number1=Number(Number1);
+           Number2=Number(Number2);
+           let Sum=Number1+Number2
+           if (typeof(Number1 &&Number2)!==Number ) {
+               console.log(Sum);
+               break;
+           }else{
+            console.log("invalid Entry Please Try AGain");
+           }
+            
+            
+
+            
+
+}
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let email=("admin@mail.com");
+        let password=("Admin@123");
+        for (let i=1;i<=4;i++){
+    if (i==4) {
+        console.log('Account Blocked Contact Admin');
+        break;
+    }
+    
+        let User_email=window.prompt("Enter Email "+ "Attempt"+i.toString());
+        let User_password=window.prompt("Enter Password" +"Attempt"+i.toString());
+        
+        if (email==User_email && password==User_password) {
+            console.log("Access Granted");
+            break;
+        }else if (User_email!==email && User_password!==password) {
+            console.log("wrong , Please Try Again");
+        }
+        
+        
+    
+    
+    
+    
+    
+    }
+    </script>
+</body>
+</html>
